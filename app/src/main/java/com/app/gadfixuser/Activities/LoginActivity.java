@@ -6,7 +6,6 @@ import androidx.databinding.DataBindingUtil;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.app.gadfixuser.ForgotPasswordActivity;
 import com.app.gadfixuser.R;
 import com.app.gadfixuser.databinding.ActivityLoginBinding;
 

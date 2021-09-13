@@ -48,4 +48,11 @@ dependencies {
 
     //Otp TextView Dependency
     implementation 'com.github.GoodieBag:Pinview:v1.4'
+
+    // circleIndicator
+    implementation 'me.relex:circleindicator:1.2.2@aar'
+
+    //glide
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
 }

@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context=".OtpVerificationActivity">
+    tools:context=".Activities.OtpVerificationActivity">
 
     <LinearLayout
         android:id="@+id/layout_verify"

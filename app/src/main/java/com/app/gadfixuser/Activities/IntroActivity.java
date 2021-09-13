@@ -1,4 +1,4 @@
-package com.app.gadfixuser;
+package com.app.gadfixuser.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
@@ -6,7 +6,7 @@ import androidx.databinding.DataBindingUtil;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.app.gadfixuser.Activities.LoginActivity;
+import com.app.gadfixuser.R;
 import com.app.gadfixuser.databinding.ActivityIntroBinding;
 
 public class IntroActivity extends AppCompatActivity {
@@ -15,7 +15,7 @@ public class IntroActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding= DataBindingUtil.setContentView(this,R.layout.activity_intro);
+        binding= DataBindingUtil.setContentView(this, R.layout.activity_intro);
 
         binding.signIn.setOnClickListener(v -> {
             Intent intent=new Intent(this, LoginActivity.class);
@@ -23,7 +23,7 @@ public class IntroActivity extends AppCompatActivity {
         });
 
         binding.registerBtn.setOnClickListener(v -> {
-            Intent intent=new Intent(this,RegistrationActivity.class);
+            Intent intent=new Intent(this, RegistrationActivity.class);
             startActivity(intent);
         });
     }

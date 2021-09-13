@@ -40,7 +40,7 @@
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/register_btn"
                         android:layout_width="match_parent"
-                        android:layout_height="55dp"
+                        android:layout_height="60dp"
                         android:text="Register"
                         android:backgroundTint="@color/black"
                         app:cornerRadius="15dp"/>

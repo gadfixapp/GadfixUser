@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/adamina</item>
+        <item>@font/advent_pro_bold</item>
+        <item>@font/advent_pro_medium</item>
+        <item>@font/alice</item>
+        <item>@font/allerta</item>
+        <item>@font/archivo_black</item>
+        <item>@font/basic</item>
+        <item>@font/bentham</item>
+        <item>@font/cantata_one</item>
+        <item>@font/fauna_one</item>
+        <item>@font/viga</item>
+    </array>
+</resources>
