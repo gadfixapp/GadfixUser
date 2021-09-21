@@ -12,9 +12,9 @@ public class NetworkConfig {
     }
 
     //Production Url
-    public static String _BASE_URL_PROD="https://gadfix.com/demo/gadfix/Vendor/";
+    public static String _BASE_URL_PROD="https://gadfix.com/demo/gadfix/CustumerApi/";
     //Development Url
-    public static String _BASE_URL_DEV="https://gadfix.com/demo/gadfix/Vendor/";
+    public static String _BASE_URL_DEV="https://gadfix.com/demo/gadfix/CustumerApi/";
 
 
 

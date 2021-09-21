@@ -87,7 +87,7 @@
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/mail_ic" />
+                                android:src="@drawable/ph_ic" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -103,7 +103,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:background="@null"
-                                android:hint="Email id"
+                                android:hint="Phone number"
                                 android:inputType="textEmailAddress"
                                 android:maxLength="10"
                                 android:textColor="@color/black"
